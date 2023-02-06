@@ -1,7 +1,7 @@
 <template>
     <nav id="header-ul">
         <div class="user-detail">
-            <a><img alt="user-photo" src="~/static/download (1).png" /></a>
+            <a><img alt="user-photo" src="~/static/Images/download (1).png" /></a>
             <p>MSoheil</p>
         </div>
         <ul>
@@ -9,7 +9,7 @@
             <li>نمایش ها</li>
             <li>جدید و معروف</li>
             <li>
-                <a><img src="~/static/download.png" alt="company-logo" /></a>
+                <a><img src="~/static/Images/download.png" alt="company-logo" /></a>
             </li>
         </ul>
     </nav>

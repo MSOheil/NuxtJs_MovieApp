@@ -11,23 +11,28 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+interface Movies {
+    description: string,
+    movieName: string,
+    imagePath: string,
+}
 @Component
 export default class Body_Main extends Vue {
-    movies: object = [
+    movies: Movies[] = [
         {
             movieName: "گربه سیاه",
             description: "بهروز 6 یکی از فیلم های عالی در ایران",
-            imagePath: require("~/static/BlackCat.jpeg"),
+            imagePath: require("~/static/Images/BlackCat.jpeg"),
         },
         {
             movieName: "بهروز 6",
             description: "گربه سیاه فیلم جدید در سینما",
-            imagePath: require("~/static/sf.png"),
+            imagePath: require("~/static/Images/sf.png"),
         },
         {
             movieName: "سگ بنده",
             description: "فیلم سگ بند به همراه بازی فلان عالی",
-            imagePath: require("~/static/SBand.jpeg"),
+            imagePath: require("~/static/Images/SBand.jpeg"),
         }
     ]
 }

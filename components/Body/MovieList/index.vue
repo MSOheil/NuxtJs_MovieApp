@@ -2,7 +2,7 @@
     <section class="movie-list">
         <div class="movies">
             <div v-for="(movie, index) in Movies" :key="index" class="movie-card">
-                <img :src="movie.imagePath" alt="" />
+                <img :src="movie.imagePath" :alt="movie.movieName" />
                 <h1 class="movie-name">{{ movie.movieName }}</h1>
                 <p>{{ movie.description }}</p>
             </div>
@@ -12,14 +12,14 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator'
-type Movies = {
+interface Movies {
     description: string,
     movieName: string,
     imagePath: string,
 }
 @Component
 export default class Movie_List extends Vue {
-    @Prop() Movies!: [Movies];
+    @Prop() Movies!: Movies[];
     constructor() {
         super();
         console.log(this.Movies);
@@ -60,7 +60,8 @@ export default class Movie_List extends Vue {
     margin: 3% 10%;
     flex-wrap: wrap;
 }
-.movies img{
+
+.movies img {
     width: 190px;
 }
 </style>

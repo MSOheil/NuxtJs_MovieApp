@@ -1,6 +1,6 @@
 <template>
     <video autoplay loop muted plays-inline class="back-video">
-        <source src="~/static/Enferadi_Gift.mp4" :type="VideoType" />
+        <source src="~/static/Videos/Enferadi_Gift.mp4" :type="VideoType" />
     </video>
 </template>
 

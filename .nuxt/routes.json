@@ -3,21 +3,18 @@
     "name": "Home",
     "path": "/Home",
     "component": "D:\\\\soheyl\\\\Git\\\\Cheshm_Andaz\\\\MovieList_NuxtJs\\\\pages\\\\Home\\\\index.vue",
-    "chunkName": "pages/Home/index",
-    "_name": "_3fe7ca67"
+    "chunkName": "pages/Home/index"
   },
   {
     "name": "page2",
     "path": "/page2",
     "component": "D:\\\\soheyl\\\\Git\\\\Cheshm_Andaz\\\\MovieList_NuxtJs\\\\pages\\\\page2.vue",
-    "chunkName": "pages/page2",
-    "_name": "_5fdc2f77"
+    "chunkName": "pages/page2"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\soheyl\\\\Git\\\\Cheshm_Andaz\\\\MovieList_NuxtJs\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_04d7ad74"
+    "chunkName": "pages/index"
   }
 ]
