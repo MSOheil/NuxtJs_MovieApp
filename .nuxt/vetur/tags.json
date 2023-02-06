@@ -1,0 +1,20 @@
+{
+  "Body": {
+    "description": "Auto imported from components/Body/index.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header/index.vue"
+  },
+  "BodyMovieList": {
+    "description": "Auto imported from components/Body/MovieList/index.vue"
+  },
+  "HeaderHeaderContent": {
+    "description": "Auto imported from components/Header/HeaderContent/index.vue"
+  },
+  "HeaderHeaderNavbar": {
+    "description": "Auto imported from components/Header/HeaderNavbar/index.vue"
+  },
+  "HeaderHeaderVideo": {
+    "description": "Auto imported from components/Header/HeaderVideo/index.vue"
+  }
+}
